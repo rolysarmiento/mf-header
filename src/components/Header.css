@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Plus Jakata Sans, sans-serif;
+}
+
+.body.containerHeader {
+    font-family: Arial, sans-serif;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f6f3;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.user-info {
+    display: flex;
+    align-items: left;
+}
+
+.user-info img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.notification {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.notification img {
+    height: 20px;
+}
+
+/* .dropdown {
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+} */
+
+.icon-person {
+    position: relative;
+    display: inline-block;
+}
+
+.user {
+    position: relative;
+    display: inline-block;
+    font-family: Plus Jakata Sans, sans-serif;
+}
+
+
+/* Contenedor del dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;  
+  }
+  
+  /* Botón que abre el menú desplegable */
+  .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  
+  /* Menú desplegable */
+  .dropdown-menu {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    z-index: 1500;
+  }
+  
+  /* Elementos del menú */
+  .dropdown-item {
+    display: block;
+    padding: 8px 16px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Mostrar el menú al hacer hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
